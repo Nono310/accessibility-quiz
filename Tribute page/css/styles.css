@@ -1,0 +1,50 @@
+main{
+    background-color: whitesmoke;
+   }
+   header{
+     text-align: center;
+   }
+   .img-div{
+     background-color: white;
+     margin: 0px auto;
+   }
+   figcaption {
+     padding: 20px 0;
+     text-align: center;
+   }
+   #image{
+     display: block;
+     object-fit: cover;
+     max-width: 100%;
+     height: auto;
+     justify-content: center;
+     margin: 0px auto;
+   
+   }
+   #tribute-info{
+     text-align: center;
+     padding: 50px 0;
+     font-size: 20px;
+     
+   }
+   ul {
+     max-width: 400px;
+     margin: 0 auto;
+   }
+   ul > li {
+     padding: 5px 0;
+     font-size: 20px;
+   }
+   
+   .biography {
+     padding: 10px 0;
+       max-width: 400px;
+     margin: 0 auto;
+   }
+   .tribute-link {
+     max-width: 800px;
+     margin: 0 auto;
+     font-size: 20px;
+     padding: 10px 0;
+   }
+   
