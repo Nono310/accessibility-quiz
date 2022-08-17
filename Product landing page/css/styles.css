@@ -1,0 +1,167 @@
+html{
+    background-color: whitesmoke;
+  }
+  *{
+    box-sizing: border-box;
+    /* margin: 0; */
+  }
+  
+  .logo img{
+        width: 100%;
+      /* height: 100%; */
+      max-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: 20px;
+  }
+  
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    z-index: 2;
+    
+  }
+  #nav-bar ul li{
+    display: inline;
+    
+    
+    
+  }
+  #nav-bar{
+    padding-left: 40%;
+  }
+  .nav-link{
+    padding-right: 70px;
+    
+  }
+  #nav-bar a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  
+  }
+  .form{
+    padding-top: 100px;
+    text-align: center;
+    display: block
+    
+  }
+  #form p{
+    font-weight: bold;
+    font-size: 25px;
+  
+  }
+  #email{
+    width: 30%;
+    text-align: center;
+    padding:10px 15px;
+    margin-bottom: 15px; 
+  }
+  #submit{
+    padding: 5px 28px;
+    background-color:#f1c40f;
+    border: none;
+    font-weight: bold;
+  }
+  #submit:hover{
+    background-color: orange;
+  
+  }
+  .grid{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .container{
+    margin: 50px 210px;
+  }
+  .icon{
+    color: orange;
+    padding-right: 90px;
+    padding-left: 50
+  }
+  .video{
+    align-items:center;
+    margin-left: 400px;
+  }
+  #pricing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+     padding-left: 250px;
+     padding-right: 250px;
+  
+  }
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+   
+  }
+  #head{
+    background-color: #ddd;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 700;
+  }
+  .product button{
+    border: 0;
+    background-color: #f1c40f;
+    padding: 15px 20px;
+    font-weight: 400;
+  }
+  .btn{
+    margin-bottom: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: orange;
+  }
+  .footer-flex{
+    display:flex;
+    gap: 1.5rem; 
+    justify-content:flex-end;
+    padding-right: 15px;
+    text-align: center;
+  
+   
+  }
+  footer{
+    background-color: #ddd;
+    height: 70px;
+    width: 80%;
+    
+  
+  
+   
+  }
+  footer p{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+  }
+  #footer{
+    padding-left: 180px;
+     
+  }
+  @media screen and (max-width: 480px){
+    *{
+    box-sizing: border-box;
+    /* margin: 0; */
+  }
+    
+  }
